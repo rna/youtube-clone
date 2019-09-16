@@ -11,6 +11,7 @@ header {
 #container {
     margin: 50px 100px 10px 100px;
     background-color: grey;
+    display: block;
 }
 
 .search-box {
@@ -38,4 +39,7 @@ aside{
 
 .recommend-video {
     margin: 20px 10px 0 20px;
+}
+#title {
+    
 }
