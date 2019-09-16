@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 20px;
+    margin-top:20px; 
+}
+
+.search-box {
+    align-self: center;
+}
+
+input {
+    width: 50vw;
+    height: 20px;
+}
