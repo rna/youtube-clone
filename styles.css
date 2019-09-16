@@ -1,3 +1,4 @@
+
 header {
     display: flex;
     justify-content: space-around;
@@ -13,4 +14,17 @@ header {
 input {
     width: 50vw;
     height: 20px;
+}
+#video-thumbnail {
+    position: fixed;
+    display: block;
+    
+}
+#video {
+    margin-top: 50px;
+    
+}
+aside{
+    float: right;
+    
 }
