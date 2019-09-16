@@ -4,7 +4,13 @@ header {
     justify-content: space-around;
     align-content: center;
     height: 20px;
-    margin-top:20px; 
+    margin-top:20px;
+    position: sticky;
+}
+
+#container {
+    margin: 50px 100px 10px 100px;
+    background-color: grey;
 }
 
 .search-box {
@@ -15,16 +21,21 @@ input {
     width: 50vw;
     height: 20px;
 }
-#video-thumbnail {
+
+#main-video {
     position: fixed;
-    display: block;
-    
 }
-#video {
-    margin-top: 50px;
-    
-}
+
 aside{
     float: right;
-    
+    width:40vw;
+}
+
+.video-thumbnail {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.recommend-video {
+    margin: 20px 10px 0 20px;
 }
