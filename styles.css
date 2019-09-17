@@ -24,12 +24,14 @@ input {
 }
 
 #main-video {
-    position: fixed;
+    position: absolute;
+    
 }
 
 aside{
     float: right;
     width:40vw;
+    
 }
 
 .video-thumbnail {
@@ -41,5 +43,5 @@ aside{
     margin: 20px 10px 0 20px;
 }
 #title {
-    
+    display: block;
 }
