@@ -1,37 +1,50 @@
+body {
+    padding: 0;
+    margin: auto;
+    background-color: lightgray;
 
+}
+/* Header Styles */
 header {
     display: flex;
     justify-content: space-around;
-    align-content: center;
-    height: 20px;
-    margin-top:20px;
+    align-items: center;
+    height: 100px;
     position: sticky;
-}
-
-#container {
-    margin: 50px 100px 10px 100px;
-    background-color: grey;
-    display: block;
-}
-
-.search-box {
-    align-self: center;
+    background-color: white;
+    align-content: center;
 }
 
 input {
     width: 50vw;
-    height: 20px;
+    height: 25px;
+    margin-right: -5px;
 }
 
-#main-video {
-    position: absolute;
-    
+header .fa {
+    padding:6px;
 }
 
+#sign-in {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+/*Video Body Styles */
+#container {
+    margin: 50px 100px 10px 100px;
+    display: flex;
+    justify-content: space-between
+}
+
+/*Side Nav Styles*/
 aside{
     float: right;
-    width:40vw;
-    
+    background-color: white;
+    left: 20px;
 }
 
 .video-thumbnail {
@@ -41,6 +54,32 @@ aside{
 
 .recommend-video {
     margin: 20px 10px 0 20px;
+}
+
+#up-next{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5px 0 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+/* Main Video Style Section*/
+
+#main-video {
+    display: block;
+}
+
+#video-info{
+    display: block;
+}
+
+#channel-info{
+    display: flex;
+    align-items: center;
+    
 }
 #title {
     display: block;
