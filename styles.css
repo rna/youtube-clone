@@ -72,15 +72,42 @@ aside{
     display: block;
 }
 
-#video-info{
+#video-info, #description {
     display: block;
+    background-color: white;
+    width: 600px;
 }
 
 #channel-info{
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
-#title {
-    display: block;
+
+#channel-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+hr {
+    margin-top:0;
+    color: grey;
+}
+
+#share-icons {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+li{
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
 }
