@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>YouTube Project</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
         <link rel="stylesheet" href="./styles.css">
@@ -9,14 +11,16 @@
         <!--Begining of Navigation Bar-->
         
         <header id="navigation-bar">
-            <button><i class="fa fa-bars" aria-hidden="true"></i>
+            <a href=""><i class="fa fa-bars fa-lg" aria-hidden="true"></i></a>
             </button>
-                <img alt="youtube-logo" width="100px" height="40px" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg">
+                <img alt="youtube-logo" width="100" height="40" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg">
             <div class="search-box">
                 <input type="text" placeholder="Search">
                 <button><i class="fa fa-search" aria-hidden="true"></i></button>
             </div>
-            <button><i class="fa fa-upload" aria-hidden="true"></i></button></div>
+            <a href=""><i class="fa fa-video-camera fa-lg"></i></a>
+            <a href=""><i class="fa fa-commenting fa-lg"></i></a>
+            <a href=""><i class="fa fa-bell fa-lg"></i></a>
             <button id="sign-in">Sign in</button>
         </header>
     
@@ -24,15 +28,15 @@
     <div id="container">
     <!--Begining of video bar-->
         <section id ="main-video">
-              <iframe src="https://www.youtube.com/embed/XPrxhmuzUyo" frameborder="200px" width="600px" height="400px"></iframe>
+              <iframe src="https://www.youtube.com/embed/XPrxhmuzUyo" width="600" height="400"></iframe>
               <div id ="video-info">
                 <h1>Introduction to git and github</h1>
                 <div id="channel-stats">
                    <div id="channel-info">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPLoOVryxKi20J6pKRL_LyaxNjXslO5QMWnCka5y5XmNMxnJZr" width="60px" height="60px" alt="image-icon">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPLoOVryxKi20J6pKRL_LyaxNjXslO5QMWnCka5y5XmNMxnJZr" width="60" height="60" alt="image-icon">
                         <div>
                             <p>Ramesh and Ella project</p>
-                            <a><img src="https://cdn.dribbble.com/users/1077130/screenshots/3524752/attachments/932685/free-red-subscribe-button-by-alfredocreates.png" width="100px" height="30px" alt="subscribe"></a>
+                            <a><img src="https://cdn.dribbble.com/users/1077130/screenshots/3524752/attachments/932685/free-red-subscribe-button-by-alfredocreates.png" width="100" height="30" alt="subscribe"></a>
                         </div>
                    </div> 
                     <h1>50,016 views</h1>
@@ -52,9 +56,9 @@
                </div>
                <div id="description">
                     <h4>Published on Feb 27, 2014</h4>
-                    <p width="50vw">How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
+                    <p id="desc-text">How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
                     <hr>
-                    <div style="text-align:center"><a href="">SHOW MORE</a></div>
+                    <div class="show-more"><a href="">SHOW MORE</a></div>
                 </div>
             </section>
         <!--End of video bar-->
@@ -71,7 +75,7 @@
             </div>
             <div class="video-thumbnail">
                 <div class="recommend-video">
-                    <iframe src="https://www.youtube.com/embed/XPrxhmuzUyo" frameborder="1" width="200px" height="100px"></iframe>
+                    <iframe src="https://www.youtube.com/embed/XPrxhmuzUyo" width="200" height="100"></iframe>
                 </div>
                 <div>
                     <h3>Descriptive Title of the youtube video</h3>
@@ -81,7 +85,7 @@
             </div> 
             <div class="video-thumbnail">
                     <div class="recommend-video">
-                        <iframe src="https://www.youtube.com/embed/XPrxhmuzUyo" frameborder="1" width="200px" height="100px"></iframe>
+                        <iframe src="https://www.youtube.com/embed/XPrxhmuzUyo" width="200" height="100"></iframe>
                     </div>
                     <div>
                         <h3>Descriptive Title of the youtube video</h3>
@@ -91,7 +95,7 @@
                 </div>
             <div class="video-thumbnail">
                         <div class="recommend-video">
-                            <iframe src="https://www.youtube.com/embed/XPrxhmuzUyo" frameborder="1" width="200px" height="100px"></iframe>
+                            <iframe src="https://www.youtube.com/embed/XPrxhmuzUyo" width="200" height="100"></iframe>
                         </div>
                         <div>
                             <h3>Descriptive Title of the youtube video</h3>
@@ -101,7 +105,7 @@
             </div>
             <div class="video-thumbnail">
                     <div class="recommend-video">
-                        <iframe src="https://www.youtube.com/embed/XPrxhmuzUyo" frameborder="1" width="200px" height="100px"></iframe>
+                        <iframe src="https://www.youtube.com/embed/XPrxhmuzUyo" width="200" height="100"></iframe>
                     </div>
                     <div>
                         <h3>Descriptive Title of the youtube video</h3>
@@ -111,7 +115,7 @@
             </div>
             <div class="video-thumbnail">
                     <div class="recommend-video">
-                        <iframe src="https://www.youtube.com/embed/XPrxhmuzUyo" frameborder="1" width="200px" height="100px"></iframe>
+                        <iframe src="https://www.youtube.com/embed/XPrxhmuzUyo" width="200" height="100"></iframe>
                     </div>
                     <div>
                         <h3>Descriptive Title of the youtube video</h3>
@@ -121,7 +125,7 @@
             </div>
             <div class="video-thumbnail">
                     <div class="recommend-video">
-                        <iframe src="https://www.youtube.com/embed/XPrxhmuzUyo" frameborder="1" width="200px" height="100px"></iframe>
+                        <iframe src="https://www.youtube.com/embed/XPrxhmuzUyo" width="200" height="100"></iframe>
                     </div>
                     <div>
                         <h3>Descriptive Title of the youtube video</h3>
@@ -131,7 +135,7 @@
             </div>
             <div>
                 <hr>
-                <div style="text-align:center"><a href="">SHOW MORE</a></div>
+                <div class="show-more"><a href="">SHOW MORE</a></div>
             </div>
         </aside>
         <!--End of Sidebar-->

@@ -111,3 +111,11 @@ a {
     text-decoration: none;
     color: grey;
 }
+
+#desc-text {
+    width:100%;
+}
+
+.show-more {
+    text-align: center;
+}
