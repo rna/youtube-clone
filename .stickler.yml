@@ -1,0 +1,6 @@
+---
+linters:
+  # Configured linters
+
+fixers:
+    enable: true

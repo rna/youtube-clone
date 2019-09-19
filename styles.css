@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: auto;
+    background-color: lightgray;
+
+}
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    position: sticky;
+    background-color: white;
+    align-content: center;
+}
+
+input {
+    width: 50vw;
+    height: 25px;
+    margin-right: -5px;
+}
+
+header .fa {
+    padding:6px;
+}
+
+#sign-in {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+/*Video Body Styles */
+#container {
+    margin: 50px 100px 10px 100px;
+    display: flex;
+    justify-content: space-between
+}
+
+/*Side Nav Styles*/
+aside{
+    float: right;
+    background-color: white;
+    left: 20px;
+}
+
+.video-thumbnail {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.recommend-video {
+    margin: 20px 10px 0 20px;
+}
+
+#up-next{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5px 0 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+/* Main Video Style Section*/
+
+main {
+    display: block;
+}
+
+#video-info, #description {
+    display: block;
+    background-color: white;
+    width: 600px;
+}
+
+#channel-info{
+    display: flex;
+    align-items: center;   
+}
+
+#channel-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+hr {
+    margin-top:0;
+    color: grey;
+}
+
+#share-icons {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+li{
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+#desc-text {
+    width:100%;
+}
+
+.show-more {
+    text-align: center;
+}
